@@ -1,7 +1,7 @@
 const chai = require("chai");
 
 const { assert } = chai;
-const uniqueInOrder = require("./uniqueInOrder");
+const uniqueInOrder = require("../kyu6/uniqueInOrder");
 
 describe("uniqueInOrder.js", () => {
 	it("Should list items without any elements with the same value next to each other and preserve the original order of the elements.", () => {

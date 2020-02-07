@@ -1,7 +1,7 @@
 const chai = require('chai');
 
 const { assert } = chai;
-const coinCombo = require('./coinCombo');
+const coinCombo = require('../kyu7/coinCombo');
 
 describe('coinCombo.js', () => {
 	it('takes 1 and returns, 1 Penny.', () => {

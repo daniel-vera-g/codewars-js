@@ -9,4 +9,4 @@ Each challenge is organized by kyu and structured by folder the following:
 * Link to online challenge
 * Explanatory comments
 
-1. Test for the Challenge
+1. Test for the Challenge in `test` folder

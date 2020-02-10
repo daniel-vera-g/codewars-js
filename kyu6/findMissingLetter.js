@@ -54,7 +54,7 @@ module.exports = function findMissingLetter(array) {
 		"y",
 		"z",
 	];
-	let missingLetters = undefined;
+	let missingLetters = null;
 
 	// Mutate alphabet to only contain elements in the range of the given array
 	let beg = alphabet.indexOf(array[0]);

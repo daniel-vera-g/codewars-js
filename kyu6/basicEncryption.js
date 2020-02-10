@@ -16,7 +16,7 @@ module.exports = function encrypt(text, rule) {
 };
 
 function handleOverflow(el, rule) {
-	let elChar = undefined;
+	let elChar = null;
 
 	elChar = el.charCodeAt() + rule - 256;
 	el = String.fromCharCode(elChar);

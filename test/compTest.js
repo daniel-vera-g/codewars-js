@@ -8,14 +8,14 @@ const b2 = [256, 9604, 729, 7569, 3364, 1089, 6242, 3481];
 const c1 = [undefined, null];
 const c2 = [11 * 11, 121 * 121, 144 * 144, 19 * 19, 161 * 161, 19 * 19, 144 * 144, 19 * 19];
 
-describe('compTest.js', () => {
-	it('Compares compatible arrays', () => {
-		assert.deepEqual(comp(a1, a2), true);
+describe("compTest.js", () => {
+	it("Compares compatible arrays", () => {
+		assert.deepStrictEqual(comp(a1, a2), true);
 	});
-	it('Compares incompatible arrays', () => {
-		assert.deepEqual(comp(b1, b2), false);
+	it("Compares incompatible arrays", () => {
+		assert.deepStrictEqual(comp(b1, b2), false);
 	});
-	it('Compares with null and undefined values', () => {
-		assert.deepEqual(comp(c1, c2), false);
+	it("Compares with null and undefined values", () => {
+		assert.deepStrictEqual(comp(c1, c2), false);
 	});
 });
